@@ -21,7 +21,7 @@ export default async function Page() {
         <div className="d-flex align-items-center flex-column">
             <Alert>
                 This page uses <strong>incremental static regeneration</strong>.
-                A new image is fetched every 15 seconds (after refreshing the page) and then served from the cache for that duration.
+                A new image is fetched every 10 seconds (after refreshing the page) and then served from the cache for that duration.
             </Alert>
 
             <Image
